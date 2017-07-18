@@ -1,0 +1,1 @@
+./wkhtmltox/bin/wkhtmltopdf --dpi 1200 --page-size A4 --print-media-type --load-error-handling ignore --disable-smart-shrinking --margin-top 8mm --margin-bottom 25mm --margin-right 5mm --margin-left 5mm --zoom 1 --footer-html footer.html letter.html output.pdf
